@@ -13,7 +13,6 @@ def create_chart():
     return fig, df
 
 # Sidebar layout
-st.sidebar.image("/home/debian/Screenshots/Screenshot from 2024-07-02 15-09-42.png", width=100)  # Replace with your logo path
 page = st.sidebar.radio("Navigation", ["Page 1", "Page 2", "Page 3"])
 
 # Checkbox and combobox in the sidebar
